@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Друга сторінка</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <a href="index.html">Головна</a>
+        <a href="page2.html">Друга сторінка</a>
+    </nav>
+
+    <div class="container">
+        <h1>Друга сторінка 📄</h1>
+        <p>Ти перейшов на іншу сторінку</p>
+
+        <button onclick="changeText()">Зміни текст</button>
+        <p id="text">Натисни кнопку 👇</p>
+    </div>
+
+    <script>
+        function changeText() {
+            document.getElementById("text").innerText = "Ого, текст змінився! 🔥";
+        }
+    </script>
+
+</body>
+</html>
